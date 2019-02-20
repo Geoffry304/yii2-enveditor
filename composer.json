@@ -22,8 +22,8 @@
     "require": {
 		"yiisoft/yii2": "~2.0.14",
 		"vlucas/phpdotenv": "^2.5",
-        "kartik-v/yii2-grid": "3.2.6",
-		"templesuite/yii2-ajaxcrud": "dev-master",
+        	"kartik-v/yii2-grid": "3.2.6",
+		"templesuite/yii2-ajaxcrud": "dev-master"
     },
     "autoload": {
         "psr-4": {
