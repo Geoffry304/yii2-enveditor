@@ -38,8 +38,8 @@ return [
 ];
 ```
 
- ``` 
-#### Options ####
+ 
+## Options
   
 **Module** Has the following options to modify it's behaviour:
 
