@@ -16,7 +16,7 @@ class Module extends \yii\base\Module{
 
     public function init()
     {
-       $ids = str_split($this->allowedIds);
+       $ids = explode(",",$this->allowedIds);
        if (!in_array(Yii::$app->user->id,$ids)){
            throw new NotFoundHttpException('The requested page does not exist.');
        }
