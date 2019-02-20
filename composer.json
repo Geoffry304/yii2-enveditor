@@ -4,9 +4,9 @@
     "keywords": [
         "yii2",
         "component",
-		"module",
+	"module",
         "env",
-		"editor",
+	"editor"
     ],
     "homepage": "https://github.com/geoffry304/yii2-enveditor",
     "type": "yii2-component",
