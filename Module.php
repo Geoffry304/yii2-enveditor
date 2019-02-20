@@ -10,7 +10,7 @@ use yii\web\NotFoundHttpException;
  */
 class Module extends \yii\base\Module{
 
-    public $controllerNamespace = 'geoffry304\yii2-enveditor\controllers';
+    public $controllerNamespace = 'geoffry304\enveditor\controllers';
 
     public $allowedIds = null;
 
