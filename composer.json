@@ -1,0 +1,33 @@
+{
+    "name": "geoffry304/yii2-enveditor",
+    "description": "Yii2 Env editor",
+    "keywords": [
+        "yii2",
+        "component",
+		"module",
+        "env",
+		"editor",
+    ],
+    "homepage": "https://github.com/geoffry304/yii2-enveditor",
+    "type": "yii2-component",
+    "license": "MIT",
+    "authors":[
+        {
+            "name": "Geoffry Van den Eede",
+            "email": "g.vandeneede@dvit.be",
+            "homepage": "http://dvit.be"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"yiisoft/yii2": "~2.0.14",
+		"vlucas/phpdotenv": "^2.5",
+        "kartik-v/yii2-grid": "3.2.6",
+		"templesuite/yii2-ajaxcrud": "dev-master",
+    },
+    "autoload": {
+        "psr-4": {
+            "geoffry304\\enveditor\\": ""
+        }
+    }
+}
